@@ -1,197 +1,153 @@
-# Obsidian-Cheat-Sheet
+Obsidian Cheat Sheet & Shortcuts Guide 🌟
+=========================================
 
-# Obsidian Cheat Sheet and Shortcut Keys 🔮
-*This repository contains all the basic cheatsheets you need to get started to make notes in obsidian. If something's missing, add yours by raising an issue here ;)*
+*Master your note-taking in Obsidian with this comprehensive cheat sheet. Additions and improvements are always welcome!*
 
-### Quick Tips
-To Search for a specific note: Use Ctrl + P (Cmd + P on Mac).
+### Essential Tips
 
-For Internal Links: Use `[[note name]]` to create internal links to other notes.
+-   **Search Notes:** `Ctrl + P` (or `Cmd + P` on Mac) to quickly find any note.
+-   **Linking Notes:** Use `[[Note Name]]` to create a link to another note.
+-   **External Links:** Use `[Text](URL)` to create hyperlinks to external resources.
+-   **Creating Lists:** Use `-`, `*`, or `1.` to create bullet or numbered lists.
+-   **Headings:** Use `#` for headings (e.g., `# Title`, `## Subtitle`).
+-   **Code Snippets:** Enclose text in triple backticks ````` for code blocks.
+-   **Embed Content:** Use `![[Note Name]]` to embed another note within your current note.
 
-For External Links: Use `[Text](URL)` to create external links.
+* * * * *
 
-For Bullet Points: Use `-`, `*`, or `1`.
+### Formatting & Linking Overview
 
-For Headings: Use `#` (e.g., # Heading 1, ## Heading 2).
-
-For Code Blocks: Wrap text in triple backticks `(```)`.
-
-For Embeds: Use `![[note name]]` to embed another note in your current note.
-
----
-
-<img src="https://i0.wp.com/atoughnut.com/wp-content/uploads/2020/08/Index1.png?resize=768%2C385&ssl=1" alt="Image Description" style="width: 100%;">
+| **Text Styling & Code** | **Links, Quotes & Tables** |
+| --- | --- |
+| **Bold:** `**text**` | **Internal Link:** `[[Note Name]]` |
+**Italic:** `*text*` | **External Link:** `[Text](URL)` |
+**Bold & Italic:** `***text***` | **Quote:** `> This is a quote.`|
+**Highlight:** `==text==` | **Table:**|
+**Code Block:** \```code``` | `Header 1 |
 
 
-Word Formatting & Coding Blocks            |  Links, Quotes & Tables
-:-------------------------:|:-------------------------:
-<img src="https://i1.wp.com/atoughnut.com/wp-content/uploads/2020/08/Index2.png?resize=512%2C237&ssl=1" alt="Image Description">  |  <img src="https://i2.wp.com/atoughnut.com/wp-content/uploads/2020/08/Index3.png?resize=512%2C224&ssl=1" alt="Image Description">
+Markdown Guide 📝
+=================
 
----
-# Markdown Cheat Sheet 💻
-<em><strong>Quick Overview ✨</em></strong> 
-  
-  ``` 
+### Quick Markdown Reference
+
+```bash
 # Heading 1
+## Heading 2
+---
+- Bullet Point
+- [x] Checklist Item
+**Bold Text**
+*Italic Text*
+***Bold & Italic***
+==Highlighted Text==
+```Code Block```
+[[Internal Link]]
+[External Link](https://example.com)
+> Quote or Blockquote
+```
+
+### Detailed Markdown Usage
+
+```
+# Heading 1
+```# Heading 1```
 
 ## Heading 2
+```## Heading 2```
 
---- Spacer  
+Line Break
+``` --- ```
 
-- Bullet Points
+Bullet Points
+``` - List item ```
 
-- [x] Checklist
+Task List
+``` - [x] Task item ```
 
-**Bold**
+Bold Text
+``` **Bold text** ```
 
-*Italic*
+Italic Text
+``` *Italic text* ```
 
-***Italic Bold***
+Bold & Italic Text
+``` ***Bold and italic*** ```
 
-==Highlights==
+Highlighted Text
+``` ==Highlighted text== ```
 
-```Coding Blocks```
+Code Block
+``` ```
+Code inside triple backticks
+``` ```
 
-[[Links]](Sources)
+Internal Link
+``` [[Link to another note]] ```
 
-> Quotes/ Blockquotes
+External Link
+``` [Link text](https://example.com) ```
 
-Table Cell A  |  Table Cell B
-----          |          ----
+Blockquote
+``` > Quoted text ```
 
+Table
+```markdown
+Header 1 | Header 2
+--- | ---
+Row 1 Col 1 | Row 1 Col 2
+Row 2 Col 1 | Row 2 Col 2
 ```
-<em><strong>Detailed Cheat Sheet 🔥</em></strong>
 
- # Heading 1
- 
-```# Heading 1 ```
 
 ---
 
-## Heading 2
+# Keyboard Shortcuts ⌨️
 
-```## Heading 2 ```
+### General Navigation
 
----
+| Shortcut           | Function                                |
+|--------------------|-----------------------------------------|
+| `Ctrl + P`         | Open command palette                    |
+| `Ctrl + N`         | Create a new note                       |
+| `Ctrl + O`         | Quick switch between notes              |
+| `Ctrl + Shift + F` | Search across all notes                 |
+| `Ctrl + G`         | Open graph view                         |
+| `Ctrl + Alt + ←`   | Navigate back                           |
+| `Ctrl + Alt + →`   | Navigate forward                        |
+| `Ctrl + F`         | Search within the current note          |
+| `Ctrl + E`         | Toggle between edit and preview mode    |
+| `Ctrl + ,`         | Open settings                           |
+| `Ctrl + Tab`       | Switch to the next tab                  |
+| `Ctrl + Shift + Tab` | Switch to the previous tab            |
 
-**Line Break**
+### Editing & Formatting
 
-``` ---  ```
-
----
-
-- Bullet Points
-
-``` - Bullet  ```
-
----
-
-- [X] Checklist
-
-``` - [x] list  ```
-
----
-
-**Bold**
-
-``` **text**  ```
-
----
-
-*Italic*
-
-```  *text* ```
-
----
-
-***Italic Bold***
-
-``` ***text***  ```
+| Shortcut              | Function                                      |
+|-----------------------|-----------------------------------------------|
+| `Ctrl + B`            | Bold selected text                            |
+| `Ctrl + I`            | Italicize selected text                       |
+| `Ctrl + K`            | Insert a link for the selected text           |
+| `Ctrl + ]`            | Indent line or selection                      |
+| `Ctrl + [`            | Unindent line or selection                    |
+| `Ctrl + D`            | Delete the current line                       |
+| `Ctrl + V`            | Duplicate the current line                    |
+| `Ctrl + Click`        | Open note in the current pane via link        |
+| `Ctrl + Shift + Click`| Open note in a new pane via link              |
+| `Ctrl + Shift + D`    | Create a daily note                           |
+| `Ctrl + /`            | Toggle the command palette                    |
+| `Ctrl + E`            | Open the graph view                           |
+| `Ctrl + Click (Cmd + Click on Mac)` | Open link in a new pane         |
 
 ---
 
-**==Highlights==**
+### Final Tips
 
-``` ==this text is highlighted==```
+- **Customization:** Personalize your Obsidian experience by exploring settings and community plugins.
+- **Version Control:** Use Git or other version control systems to track changes to your notes.
 
----
-
-**```Coding Blocks```**
-
-``` By putting 3 (`) signs before and after the code.  ```
+> Keep experimenting, and you'll soon be an Obsidian pro! 🎉
 
 ---
 
-**[[Links]]**
-
-``` [[link]](sources)  ```
-
----
-
-> Quotes/ Blockquotes
-
-``` > this is a quote.  ```
-
----
-
-Table Cell A  |  Table Cell B
-----          |          ----
-
-
-```
-Table Cell A  |  Table Cell B
-----          |          ----
-```
- 
-
----
-# Shortcuts ⌨️
-
-### General Shortcuts 🕹️
-Shortcut Key		|		Functions
-:-----------------:|-----------------:
-Ctrl + S|Editor: Saves the file
-Ctrl + N| Creates a new note
-Ctrl + P| Open command pallete
-Ctrl + O | Opens Quick Switcher
-Ctrl + Shift + F  | Search in all files
-Ctrl + G   | Opens graph view
-Ctrl +  Alt + ← | Navigate Back
-Ctrl +  Alt + → | Navigate forth
-Ctrl + F | Searches current file
-Ctrl + E | Toggle edit/preview modes
-Ctrl + , | Open Settings
-Ctrl + Tab | Next tab
-Ctrl + Shift + Tab | Previous tab
-Alt + Tab | Next App
-Alt + Shift + Tab | Previous App
-Win + Tab | Task View
-Win + Shift + Tab |  Next Window
-
-
-
-### Editing Shortcuts 🕹️
-Shortcut Key		|		Functions
-:-----------------:|-----------------:
-Ctrl + B | Bold Selected Text
-Ctrl + I | Italicize Selected Text
-Ctrl + K | Insert External Link to Selected Text
-Ctrl + ] | Indent
-Ctrl + [ | Unindent
-Ctrl + D |Delete current line
-Ctrl + V  | Duplicate current line
-Ctrl + Click | Open Note in Current Panel via Link	
-Ctrl + Shift + Click | Open Note in New Panel via Link	
-Ctrl + P (Cmd + P on Mac) | Quick Search
-Ctrl + N (Cmd + N on Mac) | New Note
-Ctrl + Shift + D (Cmd + Shift + D on Mac) | Create a Daily Note
-Ctrl + / (Cmd + / on Mac) | Toggle Command Palette
-Ctrl + E (Cmd + E on Mac) | Open Graph View
-Ctrl + Click (Cmd + Click on Mac) | Open Link in New Pane
-
-
-
-
-> You've reached the end now. Hope this helps! :)
-
-<a href="https://ko-fi.com/eyeshreya" target="_blank"><img src="https://camo.githubusercontent.com/c3f856bacd5b09669157ed4774f80fb9d8622dd45ce8fdf2990d3552db99bd27/68747470733a2f2f7777772e6275796d6561636f666665652e636f6d2f6173736574732f696d672f637573746f6d5f696d616765732f6f72616e67655f696d672e706e67"></a>
+This cheat sheet should give you a solid foundation for using Obsidian effectively. Feel free to adapt it as you explore more features and discover your own workflows!
